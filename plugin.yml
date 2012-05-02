@@ -1,0 +1,19 @@
+name: PailStone
+main: hafnium.bukkit.pail.stone.PailStone
+version: 4.0
+
+author: Hafnium
+website: pail.hafnium.ws
+
+softdepend: [PermissionsEx]
+depend: [PailPipe]
+
+commands:
+    trigger:
+        description: Triggers a PailStone :command IC.
+        usage: /trigger help
+        aliases: [ t ]
+    pailstone:
+        description: Do a pailstone command.
+        usage: /pailstone help
+        aliases: [ ps ]
